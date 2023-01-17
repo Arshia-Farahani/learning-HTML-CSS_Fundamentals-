@@ -1,0 +1,149 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/*article header p {
+  font-style: italic;
+}*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+  border-bottom: 2px solid rgb(156, 156, 156);
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* border: 5px solid #444; */
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+.h {
+  color: rgb(0, 0, 255);
+}
+.t {
+  color: rgb(255, 0, 0);
+}
+.m {
+  color: rgb(0, 255, 0);
+}
+.l {
+  color: rgb(255, 255, 0);
+}
+.headshot {
+  border-radius: 50%;
+}
+
+.related-img {
+  border-radius: 5%;
+}
+.post-content {
+  border-top: 2px solid rgb(156, 156, 156);
+}
+
+.post-content1 {
+  border-bottom: 2px solid rgb(156, 156, 156);
+}
+/* .first-li {
+  font-weight: bold;
+} */
+/* li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+} */
+/* li:nth-child(2) {
+  color: rgb(255, 0, 0);
+} */
+/* this won't work! */
+article p:first-child {
+  color: red;
+}
+article p:last-child {
+  color: red;
+  font-size: 16px;
+  font-weight: 600;
+}
+/* styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
